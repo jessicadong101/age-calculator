@@ -1,39 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>A JavaScript project</title>
+  <title>Age Calculator</title>
   <link rel="stylesheet" href="style.css">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body onload=getAge()>
-  <h1>Age Calculator</h1>
   <div id="app">
       <div id="top">
-        <div>
-            <h3>Day</h3>
+        <div class="box">
+            <h3>DAY</h3>
             <input id="day" placeholder="DD" required>
             <p id="error-day"></p>
         </div>
-        <div>
-            <h3>Month</h3>
+        <div class="box">
+            <h3>MONTH</h3>
             <input id="month" placeholder="MM">
             <p id="error-month"></p>
         </div>
-        <div class="year">
-            <h3>Year</h3>
+        <div class="box">
+            <h3>YEAR</h3>
             <input id="year" placeholder="YYYY">
             <p id="error-year"></p>
         </div>
       </div>
       <div id="mid">
+        <img src="images/icon-arrow.svg">
         <button onclick=getInput()></button>
       </div>
       <div id="bottom">
-        <div>
-            <h2 id="age-year"></h2>
-            <h2 id="age-month"></h2>
-            <h2 id="age-day"></h2>
-        </div>
+        <h2><span class="age" id="age-year"></span> years</h2>
+        <h2><span class="age" id="age-month"></span> months</h2>
+        <h2><span class="age" id="age-day"></span> days</h2>
       </div>
   </div>
   <script src="index.js"></script>

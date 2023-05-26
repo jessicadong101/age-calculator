@@ -1,0 +1,65 @@
+@import url('assets/fonts/fonts.css');
+
+:root {
+    --purple: hsl(259, 100%, 65%);
+    --light_red: hsl(0, 100%, 67%);
+    --white: hsl(0, 0%, 100%);
+    --off_white: hsl(0, 0%, 94%);
+    --light_grey: hsl(0, 0%, 86%);
+    --smokey_grey: hsl(0, 1%, 44%);
+    --off_black: hsl(0, 0%, 8%);
+}
+
+body {
+    font-family: 'Poppins';
+    padding: 5vh 0 0 5vw;
+    border: 3px solid blue;
+    background-color: var(--off_white);
+}
+
+#app {
+    background-color: var(--white);
+}
+
+/* top */
+h3 {
+    font-weight: 400;
+}
+
+input {
+    border: 2px solid var(--light_grey);
+    border-radius: 8px;
+    font-size: 2.5vw;
+    width: 15vw;
+    font-weight: 700;
+}
+
+input:hover {
+    border: 2px solid var(--purple) !important;
+}
+
+#top {
+    display: flex;
+    flex-direction: row;
+    column-gap: 2vw;
+    /* white-space: normal; */
+}
+
+.box {
+    width: 20vw;
+    /* border: 2px solid red; */
+}
+
+/* bottom */
+#bottom {
+    display: flex;
+    flex-direction: column;
+}
+
+h2 {
+    font-weight: 800;
+    font-style: italic;
+}
+.age {
+    color: var(--purple);
+}
