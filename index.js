@@ -1,6 +1,6 @@
-var age_day = "--";
-var age_month = "--";
-var age_year = "--";
+var age_day = "- -";
+var age_month = "- -";
+var age_year = "- -";
 
 function getInput() {
     var day = document.getElementById("day");
@@ -27,16 +27,22 @@ function getInput() {
 
     if (error_vals > 0) {
         // change all styles to red
-        document.getElementById('top').style.color = "var(--light_red)";
+        var titles = document.getElementsByTagName('h3');
+        for (var i = 0; i < titles.length; i++) {
+            titles[i].style.color = "var(--light_red)";
+        }
         var elements = document.getElementsByTagName('input');
         for (var i = 0; i < elements.length; i++) {
-            elements[i].border = "2px solid var(--light_red)";
+            elements[i].style.border = "2px solid var(--light_red)";
         }
-        age_day = "--";
-        age_month = "--";
-        age_year = "--";
+        age_day = "- -";
+        age_month = "- -";
+        age_year = "- -";
     } else {
-        document.getElementById('top').style.color = "var(--smokey_grey)";
+        var titles = document.getElementsByTagName('h3');
+        for (var i = 0; i < titles.length; i++) {
+            titles[i].style.color = "var(--smokey_grey)";
+        }
         var elements = document.getElementsByTagName('input');
         for (var i = 0; i < elements.length; i++) {
             elements[i].style.border = "2px solid var(--light_grey)";
@@ -68,6 +74,7 @@ function isValidDay(day, month, year) {
         return 1;
     } else if (day < 1 || day > 31) {
         document.getElementById('error-day').innerHTML = "Must be a valid day.";
+        document.g
         return 1;
     } else if (month == 2) {
         if (day > 29) {
