@@ -189,6 +189,14 @@ h2 {
         font-size: 12px;
     }
 
+    .error {
+        margin-top: 1%;
+        font-style: italic;
+        font-weight: 400;
+        color: var(--light_red);
+        font-size: 9px;
+    }
+
     button {
         position: absolute;
         z-index: 10;
@@ -230,6 +238,14 @@ h2 {
 
     h3 {
         font-size: 15px;
+    }
+
+    .error {
+        margin-top: 1%;
+        font-style: italic;
+        font-weight: 400;
+        color: var(--light_red);
+        font-size: 12px;
     }
 
     input {
