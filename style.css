@@ -124,7 +124,35 @@ h2 {
     padding: 0;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (min-width:300px) and (max-width:400px) {
+    #bottom {
+        margin-top: 20px;
+    }
+
+    h3 {
+        font-size: 12px;
+    }
+
+    button {
+        position: absolute;
+        z-index: 10;
+        margin: 0 12.5vw;
+    }
+    
+
+    input {
+        font-size: 10px;
+        height: 30%;
+        width: 80%;
+    }
+
+    h2, .age {
+        font-size: 25px;
+    }
+
+}
+
+@media (max-width: 800px) {
     #app {
         grid-template: 1.5% 30% 20% 67% 1.5% / 3% 94% 3%;
     }
@@ -149,7 +177,7 @@ h2 {
     }
 
     h3 {
-        font: 15px;
+        font-size: 15px;
     }
 
     input {
