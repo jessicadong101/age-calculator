@@ -33,7 +33,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [Add live site URL here](https://jessicadong101.github.io/age-calculator/)
+- Live Site URL: [https://jessicadong101.github.io/age-calculator/]
 
 ## My process
 
@@ -53,6 +53,6 @@ It is not as responsive as it should be. For some screen sizes, the layout gets 
 
 ## Author
 
-- Website - [Jessica][https://www.your-site.com](https://jessicadong101.github.io]
+- Website - Jessica [https://www.your-site.com](https://jessicadong101.github.io]
 - Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/jessicadong101)
 
