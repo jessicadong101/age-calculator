@@ -64,7 +64,7 @@ input:hover {
     border: 2px solid var(--purple) !important;
 }
 
-h3 {
+h1 {
     font-weight: 400;
     margin-bottom: 1%;
     color: var(--smokey_grey);
@@ -140,7 +140,7 @@ h2 {
         margin-top: 20px;
     }
 
-    h3 {
+    h1 {
         font-size: 8px;
     }
 
@@ -185,7 +185,7 @@ h2 {
         margin-top: 20px;
     }
 
-    h3 {
+    h1 {
         font-size: 12px;
     }
 
@@ -236,7 +236,7 @@ h2 {
         margin-top: 5px;
     }
 
-    h3 {
+    h1 {
         font-size: 15px;
     }
 
